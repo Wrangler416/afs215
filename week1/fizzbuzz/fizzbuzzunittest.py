@@ -7,17 +7,13 @@
 import unittest
 import fizzbuzz
 
+
+    
 class FirstTest(unittest.TestCase):
     def test_one_stringOne(self):
-        fizzbuzz.findAnswer(1) == 1
+        assert fizzbuzz.findAnswer(1) == 1
+        assert fizzbuzz.findAnswer(2) == 2 
         
 if __name__ == '__main__':
     unittest.main()
-
-
-  
-
-
-    
-
     

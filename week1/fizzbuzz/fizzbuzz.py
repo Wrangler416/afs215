@@ -5,5 +5,7 @@ def findAnswer(a):
         return 2
 
 print(findAnswer(1))
+print(findAnswer(2))
+
 
 
