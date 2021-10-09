@@ -8,8 +8,14 @@ print(findAnswer(1))
 print(findAnswer(2))
 
 
-def add(x, y):
-    return x + y 
 
+def perfectNumber(num):
+    sum = 0
+    for i in range(1, num):
+        if num % i == 0:
+            sum += i
+    return sum == num
+
+print(perfectNumber(6))
 
 
