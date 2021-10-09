@@ -11,19 +11,15 @@ def findAnswer(i):
         if i % 3 == 0:
             return "fizz"
         
-        elif i % 5 == 0:
+        if i % 5 == 0:
             return "buzz"
 
         
-
 print(findAnswer(1))
 print(findAnswer(2))
 print(findAnswer(3))
+print(findAnswer(5))
 print(findAnswer(6))
+print(findAnswer(10))
 print(findAnswer(15))
-print(findAnswer(100))
-print(findAnswer(15))
-
-        
-
 
