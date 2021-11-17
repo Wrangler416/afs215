@@ -42,4 +42,3 @@ describe("FizzBuzz", function(){
     })
 })
 
-
