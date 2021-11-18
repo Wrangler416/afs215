@@ -1,7 +1,5 @@
-import Checkout from '../walmart'
-import Discount from './walmart'
-import Item from './walmart'
-const assert = require('chai').assert
+import { assert} from 'chai'
+import { Checkout, Item } from './walmart.js'
 
 describe("Tests", function(){
 
